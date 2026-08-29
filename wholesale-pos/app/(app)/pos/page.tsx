@@ -174,7 +174,7 @@ export default function POSPage() {
           </div>
         </div>
 
-        <div className="grid flex-1 grid-cols-2 gap-3 overflow-y-auto pb-1 sm:grid-cols-3 xl:grid-cols-4-x">
+        <div className="grid flex-1 grid-cols-2 gap-3 overflow-y-auto pb-1 sm:grid-cols-3-x xl:grid-cols-4">
           {filtered.map((product, i) => (
             <button
               key={product.id}
